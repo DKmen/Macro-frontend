@@ -9,6 +9,7 @@ import InvestPhoneRight from "../assets/invest-phone-right.svg";
 export default function InvestingComponent() {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen bg-[#00D54B] relative investBG">
+
       <div className="flex-1 flex flex-col items-center justify-center">
         <span className="uppercase font-extrabold text-white text-4xl">
           Investing
@@ -36,7 +37,7 @@ export default function InvestingComponent() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row items-center justify-between py-4   px-4 lg:px-10 w-full">
+      <div className="flex flex-col space-y-4 lg:space-y-0 lg:flex-row items-center justify-between py-4   px-4  lg:px-10 w-full">
         <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-2">
           <div className="border border-solid bg-white border-black rounded flex flex-row items-center justify-center space-x-4 p-2 lg:p-4">
             <img src={AppleLogo} alt="" />
