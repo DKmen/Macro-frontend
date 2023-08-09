@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.coverBG {
+  background-image: url('./assets/cover.svg');
+  background-size: cover;
+}
+
+.paymentBG {
+  background-image: url('./assets/payment-cover.svg');
+  background-size: cover;
+}
+
+.bankingBG {
+  background-image: url('./assets/banking-cover.svg');
+  background-size: cover;
+}
+
+.cashcardBG {
+  background-image: url('./assets/cash-card-cover.svg');
+  background-size: cover;
+}
+
+.investBG {
+  background-image: url('./assets/investing-cover.svg');
+  background-size: cover;
+}
